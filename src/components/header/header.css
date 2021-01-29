@@ -1,0 +1,17 @@
+body {
+  background-color: grey;
+}
+
+.headline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logoname {
+  color: #f5f5f5;
+}
+
+.logoname span {
+  color: #fccd00;
+}
