@@ -7,3 +7,4 @@ export default {
 };
 
 export const itemheader = () => header;
+itemheader.parameters = { layout: "fullscreen" };
