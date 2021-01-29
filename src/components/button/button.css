@@ -1,0 +1,26 @@
+.btn-home {
+  border-radius: 28px;
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  color: var(--primary-btn-font-color);
+  background: var(--primary-button-color);
+  border: none;
+  padding: 10px 20px;
+  height: 56px;
+}
+
+.btn-home::before {
+  content: url(../../assets/home.svg);
+  margin-right: 10px;
+  vertical-align: -10%;
+}
+
+.btn-search {
+  width: 20px;
+  height: 20px;
+}
+
+.btn-star {
+  width: 20px;
+  height: 20px;
+}
