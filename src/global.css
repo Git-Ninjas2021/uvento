@@ -5,6 +5,10 @@
 *::before {
   box-sizing: border-box;
 }
+:root {
+  --primary-button-color: #102733;
+  --primary-btn-font-color: #ffa700;
+}
 
 html {
   font-size: 16px;
