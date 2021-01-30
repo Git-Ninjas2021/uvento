@@ -1,0 +1,31 @@
+.calender {
+  box-sizing: border-box;
+  background-color: #29404e;
+  width: 47px;
+  height: 67px;
+  border-radius: 10px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  color: #fff;
+}
+
+.calender-wochentag {
+  font-size: 12px;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+}
+.calender-tag {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+.calender-container {
+  display: grid;
+  grid-auto-flow: column;
+}
+.today {
+  background-color: #fccd00;
+  color: #000;
+}

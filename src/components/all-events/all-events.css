@@ -25,13 +25,11 @@
 .card-img {
   object-fit: cover;
   width: 22px;
-  /* height: px; */
   border-radius: 20px;
   margin-top: 21px;
 }
 .card-text {
   color: #fff;
-  /* text-align: center; */
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 18px;
