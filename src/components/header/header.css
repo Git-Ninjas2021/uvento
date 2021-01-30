@@ -1,0 +1,32 @@
+body {
+  background-color: grey;
+}
+
+.headline {
+  margin-top: 40px;
+
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr auto 1fr 1fr; */
+  display: grid;
+  column-gap: 50px;
+  grid-auto-flow: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logoname {
+  margin-bottom: 30px;
+  vertical-align: top;
+  font-size: 23px;
+  margin-left: 5px;
+  color: #f5f5f5;
+  display: inline;
+}
+
+.logoname span {
+  color: #fccd00;
+}
+
+.menuebtn {
+  padding-left: 12px;
+}

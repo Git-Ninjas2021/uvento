@@ -1,9 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 
 *,
 *::after,
 *::before {
   box-sizing: border-box;
+}
+:root {
+  --primary-button-color: #102733;
+  --primary-btn-font-color: #ffa700;
 }
 
 html {
@@ -11,7 +15,7 @@ html {
 }
 
 body {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Muli", sans-serif;
   margin: 0;
 }
 
@@ -21,5 +25,5 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Muli", sans-serif;
 }
