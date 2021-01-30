@@ -3,7 +3,7 @@ import footer from "./footer.html";
 
 export default {
   title: "Components/Footer",
-  parameters: { layout: "centered" },
+  parameters: { layout: "fullscreen" },
 };
 
 export const itemfooter = () => footer;
